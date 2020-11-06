@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan';
+}
+
+:root{
+    font-size: 62.5%
+}
+
+.center-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    max-width: 340px;
+    margin: 4rem 0;
+}
+
+.title-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.title-description h1{
+    width: 250px;
+    line-height: 1;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: hsl(300, 43%, 22%);
+}
+
+.title-description p{
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+}
+
+.rated{
+    margin-bottom: 4rem;
+}
+
+.rating{
+    height: 80px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    background: hsl(300, 24%, 96%);
+}
+
+.r2{
+    margin: 1.5rem 0;
+}
+
+.testmony{
+    height: 200px;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.t2{
+    margin: 1.5rem 0;
+}
+
+.testmony header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.testmony img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.name-status{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.name-status span:first-child{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0.2rem;
+}
+
+.name-status span:last-child{
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+}
+
+.testmony p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.8;
+    color: hsl(300, 24%, 96%);
+}
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
