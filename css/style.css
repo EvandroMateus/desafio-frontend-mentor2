@@ -16,6 +16,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: top, bottom;
 }
 
 .content{
@@ -117,15 +121,68 @@
     color: hsl(300, 24%, 96%);
 }
 
-
-
-
-
-
 .attribution {
     font-size: 11px;
     text-align: center;
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
+
+
+  @media screen and (min-width: 700px){
+
+    .title-description h1{
+        width: 350px;
+        font-size: 4rem;
+    }
+
+    .title-description p{
+        font-size: 2rem;
+    }
+
+    .center-container{
+        background-position: top left, bottom right;
+        background-size: 60%, 60%;
+    }
+
+    .content{
+        max-width: 640px;
+    }
+
+    .rated{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rating{
+        width: 500px;
+        height: 60px;
+        padding: 1.5rem 3rem;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .rating .stars{
+        margin-right: 3rem;
+    }
+
+    .r2{
+        align-self: center;
+    }
+
+    .r3{
+        align-self: flex-end;
+    }
+
+    .testmonies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testmony{
+        width: 400px;
+    }
+
   }
